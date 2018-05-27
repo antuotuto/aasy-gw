@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" id="viewport" content="width=device-width">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>王安安科技</title>
+  <link rel="icon" href="http://ooi407n8x.bkt.clouddn.com/an.jpg">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/swiper.css">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/boot.css">
+  <link rel="stylesheet" href="../styles/mobile.css">
+  <script>
+    ! function() {
+      var e = screen.width / 750;
+      document.getElementById("viewport").content = "width=750,initial-scale=" + e + ",minimum-scale=" + e +
+        ",maximum-scale=" + e + ",user-scalable=no"
+    }()
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="http://ooi407n8x.bkt.clouddn.com/an.jpg" alt="">
+    </div>
+    <ul class="nav ">
+      <li>
+        <a href="./index.html">科技医药</a>
+      </li>
+      <li>
+        <a href="./people.html">科技医药</a>
+      </li>
+      <li>
+        <a href="">科技医药</a>
+      </li>
+      <li>
+        <a href="">科技医药</a>
+      </li>
+      <li>
+        <a href="">科技医药</a>
+      </li>
+    </ul>
+    <span class="glyphicon glyphicon-list" id="list"></span>
+  </header>
+  <div class="product-page">
+    <div class="product">
+      <div class="content-img">
+        <div class="product-swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+          </div>
+        </div>
+        <div class="product-swiper-pagination"></div>
+      </div>
+      <div class="content-text">
+        <h2 class="title">前端第五段</h2>
+        <p class="price">￥99.99</p>
+        <p class="description">At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to an adjoining hall. At half-past eight the door opened, the policeman appeared, and, requesting them to follow him, led the way to an
+          adjoining hall. At half-past eight the door opened, the policeman appeared, and, requesting them to follow him.</p>
+        <p class="me">王安安科技</p>
+        <button type="button" data-toggle="modal" data-target=".bs-example-modal-sm">立即购买</button>
+      </div>
+    </div>
+    <div class="pruduct-message">
+      <h2>Product</h2>
+      <div class="four-product-img">
+        <div class="product-img-4 img-1">
+          <p class="product-name">王安安科技</p>
+          <img src="http://ooi407n8x.bkt.clouddn.com/an.jpg" alt="">
+          <p class="product-description">想要购买的客人直接微信我</p>
+        </div>
+        <div class="product-img-4 img-1">
+          <p class="product-name">王安安科技</p>
+          <img src="http://ooi407n8x.bkt.clouddn.com/an.jpg" alt="">
+          <p class="product-description">想要购买的客人直接微信我</p>
+        </div>
+        <div class="product-img-4 img-1">
+          <p class="product-name">王安安科技</p>
+          <img src="http://ooi407n8x.bkt.clouddn.com/an.jpg" alt="">
+          <p class="product-description">想要购买的客人直接微信我</p>
+        </div>
+        <div class="product-img-4 img-1">
+          <p class="product-name">王安安科技</p>
+          <img src="http://ooi407n8x.bkt.clouddn.com/an.jpg" alt="">
+          <p class="product-description">想要购买的客人直接微信我</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="homeEnd-box">
+      <div class="homeEnd-left">
+        <p>长按扫描二维码</p>
+        <a href="https://antuotuto.github.io/wanganan/?from=singlemessage">微信</a>
+        <a href="https://github.com/antuotuto">Github</a>
+        <a href="https://www.gitbook.com/@antuotuo/dashboard">Gitbook</a>
+        <p>© Copyright 2017 王安安科技</p>
+      </div>
+      <div class="Qma">
+        <img src="http://www.sunqiongyao.com/image/hexo/logoanQ.jpeg" alt="">
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <img src="http://www.sunqiongyao.com/image/hexo/logoanQ.jpeg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <script src="../scripts/jquery.min.js"></script>
+  <script src="../scripts/bootstrap.min.js"></script>
+  <script src="../scripts/swiper.js"></script>
+  <script src="../scripts/main.js"></script>
+  <script>
+    var mySwiper = new Swiper('.product-swiper-container', {
+      loop: true,
+      pagination: '.product-swiper-pagination',
+      paginationClickable: true,
+      uniqueNavElements: false,
+      autoplay: '3000'
+
+    })
+  </script>
+
+
+</body>
+
+</html>
